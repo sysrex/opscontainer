@@ -58,7 +58,7 @@ RUN echo "LC_ALL=en_US.UTF-8" >> /etc/environment && \
     locale-gen en_US.UTF-8
 RUN usermod --shell /bin/zsh root
 
-COPY shell/.zshrc shell/.welcome.sh /root/
+COPY shell/.zshrc /root/
 RUN git clone --single-branch --depth 1 https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 ARG POWERLEVEL10K_VERSION=v1.16.1
