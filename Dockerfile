@@ -38,8 +38,7 @@ RUN apt-get update -y && \
     rm -r /var/cache/* /var/lib/apt/lists/*
 COPY .ssh.sh /root/
 RUN chmod +x /root/.ssh.sh
-# Retro-compatibility symlink
-RUN  ln -s /root/.ssh.sh /root/.windows.sh
+
 
 # Setup shell
 ENTRYPOINT [ "/bin/zsh" ]
