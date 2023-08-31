@@ -39,6 +39,9 @@ RUN apt-get update -y && \
 COPY .ssh.sh /root/
 RUN chmod +x /root/.ssh.sh
 
+COPY .gnupg.sh / root/
+RUN chmod +x /root/.gnupg.sh
+
 
 # Setup shell
 ENTRYPOINT [ "/bin/zsh" ]

@@ -27,16 +27,6 @@ if [ -d ~/.ssh ]; then
   rm /tmp/ls_tmp_ssh
 fi
 
-if [ -d /tmp/.ssh ]; then
-  # Retro-compatibility
-  echo "Copying content of /tmp/.ssh to ~/.ssh"
-  mkdir -p ~/.ssh
-  cp -r /tmp/.ssh/* ~/.ssh/
-  chmod 600 ~/.ssh/*
-  chmod 644 ~/.ssh/*.pub &> /dev/null
-  return 0
-fi
-
 if [ ! -d /mnt/ssh ]; then
   echo "No bind mounted ssh directory found (~/.ssh, /tmp/.ssh, /mnt/ssh), exiting"
   return 0
