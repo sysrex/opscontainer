@@ -25,7 +25,6 @@ Base DEbian development container for Visual Studio Code, used as base image by 
 ![GitHub repo size](https://img.shields.io/github/repo-size/sysrex/opscontainer)
 
 [![MIT](https://img.shields.io/github/license/sysrex/opscontainer)](https://github.com/sysrex/opscontainer/master/LICENSE)
-![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=basedevcontainer.readme)
 
 ## Features
 
