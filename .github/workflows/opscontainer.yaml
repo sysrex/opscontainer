@@ -2,14 +2,14 @@ name: Build opscontainer
 on:
   push:
     paths:
-      - .github/workflows/debian.yml
+      - .github/workflows/opscontainer.yml
       - shell/**
       - .dockerignore
       - .ssh.sh
-      - debian.Dockerfile
+      - Dockerfile
   pull_request:
     paths:
-      - .github/workflows/debian.yml
+      - .github/workflows/opscontainer.yml
       - shell/**
       - .dockerignore
       - .ssh.sh
