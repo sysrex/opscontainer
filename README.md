@@ -105,7 +105,7 @@ You can build and extend the Docker development image to suit your needs.
 - You can build the development image yourself:
 
     ```sh
-    docker build -t sysrex/opscontainer -f alpine.Dockerfile  https://github.com/sysrex/opscontainer.git
+    docker build -t sysrex/opscontainer -f Dockerfile  https://github.com/sysrex/opscontainer.git
     ```
 
 - You can extend the Docker image `sysrex/opscontainer` with your own instructions.
