@@ -2,14 +2,14 @@ name: Build opscontainer
 on:
   push:
     paths:
-      - .github/workflows/opscontainer.yml
+      - .github/workflows/opscontainer.yaml
       - shell/**
       - .dockerignore
       - .ssh.sh
       - Dockerfile
   pull_request:
     paths:
-      - .github/workflows/opscontainer.yml
+      - .github/workflows/opscontainer.yaml
       - shell/**
       - .dockerignore
       - .ssh.sh
