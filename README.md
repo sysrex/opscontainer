@@ -2,29 +2,29 @@
 
 Base DEbian development container for Visual Studio Code, used as base image by other images
 
-[![Debian](https://github.com/qdm12/basedevcontainer/actions/workflows/debian.yml/badge.svg)](https://github.com/qdm12/basedevcontainer/actions/workflows/debian.yml)
+[![Debian](https://github.com/sysrex/opscontainer/actions/workflows/debian.yml/badge.svg)](https://github.com/sysrex/opscontainer/actions/workflows/debian.yml)
 
 [![dockeri.co](https://dockeri.co/image/sysrex/opscontainer)](https://hub.docker.com/r/sysrex/opscontainer)
 
-![Last release](https://img.shields.io/github/release/qdm12/basedevcontainer?label=Last%20release)
+![Last release](https://img.shields.io/github/release/sysrex/opscontainer?label=Last%20release)
 ![Last Docker tag](https://img.shields.io/docker/v/sysrex/opscontainer?sort=semver&label=Last%20Docker%20tag)
 [![Last release size](https://img.shields.io/docker/image-size/sysrex/opscontainer?sort=semver&label=Last%20released%20image)](https://hub.docker.com/r/sysrex/opscontainer/tags?page=1&ordering=last_updated)
-![GitHub last release date](https://img.shields.io/github/release-date/qdm12/basedevcontainer?label=Last%20release%20date)
-![Commits since release](https://img.shields.io/github/commits-since/qdm12/basedevcontainer/latest?sort=semver)
+![GitHub last release date](https://img.shields.io/github/release-date/sysrex/opscontainer?label=Last%20release%20date)
+![Commits since release](https://img.shields.io/github/commits-since/sysrex/opscontainer/latest?sort=semver)
 
 [![Latest size](https://img.shields.io/docker/image-size/sysrex/opscontainer/latest?label=Latest%20image)](https://hub.docker.com/r/sysrex/opscontainer/tags)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/commits/master)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/graphs/contributors)
-[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/pulls?q=is%3Apr+is%3Aclosed)
-[![GitHub issues](https://img.shields.io/github/issues/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub last commit](https://img.shields.io/github/last-commit/sysrex/opscontainer.svg)](https://github.com/sysrex/opscontainer/commits/master)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/sysrex/opscontainer.svg)](https://github.com/sysrex/opscontainer/graphs/contributors)
+[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/sysrex/opscontainer.svg)](https://github.com/sysrex/opscontainer/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/sysrex/opscontainer.svg)](https://github.com/sysrex/opscontainer/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/sysrex/opscontainer.svg)](https://github.com/sysrex/opscontainer/issues?q=is%3Aissue+is%3Aclosed)
 
-[![Lines of code](https://img.shields.io/tokei/lines/github/qdm12/basedevcontainer)](https://github.com/qdm12/basedevcontainer)
-![Code size](https://img.shields.io/github/languages/code-size/qdm12/basedevcontainer)
-![GitHub repo size](https://img.shields.io/github/repo-size/qdm12/basedevcontainer)
+[![Lines of code](https://img.shields.io/tokei/lines/github/sysrex/opscontainer)](https://github.com/sysrex/opscontainer)
+![Code size](https://img.shields.io/github/languages/code-size/sysrex/opscontainer)
+![GitHub repo size](https://img.shields.io/github/repo-size/sysrex/opscontainer)
 
-[![MIT](https://img.shields.io/github/license/qdm12/basedevcontainer)](https://github.com/qdm12/basedevcontainer/master/LICENSE)
+[![MIT](https://img.shields.io/github/license/sysrex/opscontainer)](https://github.com/sysrex/opscontainer/master/LICENSE)
 ![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=basedevcontainer.readme)
 
 ## Features
