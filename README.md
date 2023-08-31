@@ -28,7 +28,6 @@ Base DEbian development container for Visual Studio Code, used as base image by 
 
 ## Features
 
-- `sysrex/opscontainer:alpine` (or `:latest`) based on Alpine 3.18 in **226MB**
 - `sysrex/opscontainer:debian` based on Debian Buster Slim in **376MB**
 - All images are compatible with `amd64`, and `arm64` CPU architectures
 - Contains the packages:
