@@ -70,6 +70,11 @@ RUN git clone --branch ${POWERLEVEL10K_VERSION} --single-branch --depth 1 https:
 
 
 # Setup awscli
-RUN apt-get install awscli -y
+ENTRYPOINT [ "/bin/zsh" ]
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends awscli && \
+    apt-get autoremove -y && \
+    apt-get clean -y && \
+    rm -r /var/cache/* /var/lib/apt/lists/*
 
 # Setup Kubectl and Helm
