@@ -130,4 +130,3 @@ You can build and extend the Docker development image to suit your needs.
 - [ ] Install k9s
 - [ ] Install Helm
 - [ ] Install nvim
-- [ ] Install awscli
