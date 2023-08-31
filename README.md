@@ -124,8 +124,6 @@ You can build and extend the Docker development image to suit your needs.
     1. Modify `.devcontainer/docker-compose.yml` and add `build: .` in the vscode service.
     1. Open the VS code command palette and choose `Remote-Containers: Rebuild container`
 
-- You can bind mount a file at `/home/vscode/.welcome.sh` to modify the welcome message (use `/root/.welcome.sh` for `root`)
-
 ## TODO
 
 - [ ] Install Kubectl
