@@ -43,11 +43,11 @@ RUN chmod +x /root/.ssh.sh
 # Setup shell
 ENTRYPOINT [ "/bin/zsh" ]
 RUN apt-get update -y && \
-    apt-get install -y --no-install-recommends zsh nano locales wget && \
+    apt-get install -y --no-install-recommends zsh vim locales wget gnupg2 && \
     apt-get autoremove -y && \
     apt-get clean -y && \
     rm -r /var/cache/* /var/lib/apt/lists/*
-ENV EDITOR=nano \
+ENV EDITOR=vim \
     LANG=en_US.UTF-8 \
     # MacOS compatibility
     TERM=xterm
@@ -64,5 +64,9 @@ ARG POWERLEVEL10K_VERSION=v1.16.1
 COPY shell/.p10k.zsh /root/
 RUN git clone --branch ${POWERLEVEL10K_VERSION} --single-branch --depth 1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k && \
     rm -rf ~/.oh-my-zsh/custom/themes/powerlevel10k/.git
+
+
+# Setup awscli
+RUN apt-get install awscli -y
 
 # Setup Kubectl and Helm
