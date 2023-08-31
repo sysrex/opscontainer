@@ -74,5 +74,6 @@ jobs:
             COMMIT=${{ steps.vars.outputs.commit }}
             VERSION=${{ steps.vars.outputs.version }}
           tags: |
+            sysrex/opscontainer:latest
             sysrex/opscontainer:${{ steps.vars.outputs.debian_version }}
           push: true
