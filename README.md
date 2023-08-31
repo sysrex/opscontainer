@@ -2,7 +2,7 @@
 
 Base DEbian development container for Visual Studio Code, used as base image by other images
 
-[![Debian](https://github.com/sysrex/opscontainer/actions/workflows/debian.yml/badge.svg)](https://github.com/sysrex/opscontainer/actions/workflows/debian.yml)
+[![Debian](https://github.com/sysrex/opscontainer/actions/workflows/opscontainer.yaml/badge.svg)](https://github.com/sysrex/opscontainer/actions/workflows/opscontainer.yaml)
 
 [![dockeri.co](https://dockeri.co/image/sysrex/opscontainer)](https://hub.docker.com/r/sysrex/opscontainer)
 
@@ -30,7 +30,7 @@ Base DEbian development container for Visual Studio Code, used as base image by 
 
 - `sysrex/opscontainer:alpine` (or `:latest`) based on Alpine 3.18 in **226MB**
 - `sysrex/opscontainer:debian` based on Debian Buster Slim in **376MB**
-- All images are compatible with `amd64`, `386`, `arm64`, `armv7`, `armv6` and `ppc64le` CPU architectures
+- All images are compatible with `amd64`, and `arm64` CPU architectures
 - Contains the packages:
   - `libstdc++`: needed by the VS code server
   - `zsh`: main shell instead of `/bin/sh`
