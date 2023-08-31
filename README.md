@@ -128,9 +128,9 @@ You can build and extend the Docker development image to suit your needs.
 
 ## TODO
 
-- [ ] `bit complete` yes flag
-- [ ] Firewall, see [this](https://code.visualstudio.com/docs/remote/containers#_what-are-the-connectivity-requirements-for-the-vs-code-server-when-it-is-running-in-a-container)
-- [ ] Extend another docker-compose.yml
-- [ ] Fonts for host OS for the VS code shell
-- [ ] Gifs and images
-- [ ] Install VS code server and extensions in image, waiting for [this issue](https://github.com/microsoft/vscode-remote-release/issues/1718)
+- [ ] Install Kubectl
+- [ ] Install Kubectx
+- [ ] Install k9s
+- [ ] Install Helm
+- [ ] Install nvim
+- [ ] Install awscli
