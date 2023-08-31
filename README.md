@@ -1,6 +1,6 @@
-# Base Dev Container
+# Base Ops Container
 
-Base DEbian development container for Visual Studio Code, used as base image by other images
+Base Debian ops container for Visual Studio Code, used as base image by other images
 
 [![Debian](https://github.com/sysrex/opscontainer/actions/workflows/opscontainer.yaml/badge.svg)](https://github.com/sysrex/opscontainer/actions/workflows/opscontainer.yaml)
 
