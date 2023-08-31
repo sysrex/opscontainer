@@ -61,7 +61,7 @@ jobs:
           else
             echo ::set-output name=version::$BRANCH
             echo ::set-output name=debian_version::$BRANCH-debian
-            echo ::set-output name=platforms::linux/amd64/v8
+            echo ::set-output name=platforms::linux/amd64, linux/arm64/v8
           fi
 
       - name: Build and push final image
